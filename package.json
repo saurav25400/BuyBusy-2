@@ -1,0 +1,22 @@
+{
+  "name": "buybusy_2",
+  "version": "1.0.0",
+  "description": "e-com project",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "node server.js",
+    "build": "npm install && npm install --prefix ecom && npm build --prefix ecom"
+  },
+  "type": "module",
+  "author": "saurav kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.3",
+    "nodemon": "^3.1.0"
+  }
+}
